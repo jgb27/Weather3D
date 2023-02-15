@@ -14,17 +14,17 @@ export default function Home() {
   return (
     <Center
       h="100vh"
-      bgGradient="linear(to-r, yellow.400, yellow.500)"
+      bgGradient="linear(to-r, blue.400, blue.500)"
     >
       <Box
         w="25vw"
         h="65vh"
-        bgColor="white"
+        bgGradient="linear(to-r, blue.300, blue.400)"
         borderRadius="xl"
         boxShadow="md"
         p="5"
       >
-        <Center border="1px solid black">
+        <Center >
           <LazySunLoader />
         </Center>
       </Box >
